@@ -4,7 +4,7 @@ TinyTranscoder provides a minimal, easy-to-use implementation for training a two
 
 The core idea is to train a separate, smaller model (the transcoder) to map the hidden states of a transformer's MLP layers to a set of sparse, human-interpretable features. By doing this, we can trace the flow of information through the model constructing attribution graphs and see how specific learned features contribute to the final output.
 
-I've made an article on circuit tracing and transcoders on my personal blog. Read it [here](https://lorenzoruggerii.github.io/blog/2025/transcoders-new/)
+>I've made an article on circuit tracing and transcoders on my personal blog. Read it [here](https://lorenzoruggerii.github.io/blog/2025/transcoders-new/)
 
 ---
 
